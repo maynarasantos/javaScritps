@@ -77,3 +77,19 @@ function notas() {
 
 
 }
+
+function verificarVelocidade(velocidade){
+    let velocidade= (70)
+    
+    if(velocidade< 70 ) {
+        alert(`ok`)
+
+    }else if (velocidade>70){
+        alert(`ganha um ponto`)
+
+    } else  (velocidade ==70);{
+        alert("ok")
+
+    }
+
+}
