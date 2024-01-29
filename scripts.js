@@ -78,20 +78,20 @@
 
 // // }
 
-// // function verificarVelocidade(velocidade){
-// //     let velocidade= (70)
+// function verificarVelocidade(velocidade){
+//     let velocidade= (70)
 
-// //     if(velocidade< 70 ) {
-// //         alert(`ok`)
+//     if(velocidade< 70 ) {
+//         alert(`ok`)
 
-// //     }else if (velocidade>70){
-// //         alert(`ganha um ponto`)
+//     }else if (velocidade>70){
+//         alert(`ganha um ponto`)
 
-// //     } else  (velocidade ==70);{
-// //         alert("ok")
+//     } else  (velocidade ==70);{
+//         alert("ok")
 
-// //     }
-// // }
+//     }
+// }
 
 // let students= ["maynara santos", "maria eduarda"]
 // console.log(students[0])
@@ -123,3 +123,23 @@ function tabuada() {
 
     }
 }
+let numeros = [1,5,9,8]
+numeros.push(7) //adicionando um numero
+numeros.sort()  //colocando em ordem do menor para o maior 
+console.log(numeros)
+console.log (`a variavel tem ${numeros.length} posições`) // length indica quantos numeros tem dentro da variavel 
+
+
+ let nume = [1,5,9,8,6,4]
+ nume.sort()
+// for(let posições =0;posições < nume.length; posições++ ){
+//     console.log(`a primeira posiçao ${posições} tem o numero ${nume[posições]}`)
+
+//  
+
+//forma simplificada para usar o for //
+for (let posições in nume){
+    console.log(`a primeira posiçao ${posições} tem o numero ${nume[posições]}`)
+
+}
+//indexOf quando quero saber em que posiçao esta o numero 
