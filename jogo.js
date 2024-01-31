@@ -1,28 +1,30 @@
 
 function jogos() {
 let chuteDojogador = 1
-let numeroMisterioso = Math.floor(Math.random() * 101);
+let numeroMisterioso = Math.floor(Math.random() * 100);
 alert(numeroMisterioso)
-while (chuteDojogador <= 101) {
+while (chuteDojogador <= 100) {
     
     chuteDojogador = (prompt("Digite seu chute!"));
     
     
     if (chuteDojogador < numeroMisterioso) {
         
-        alert("seu numero é menor que o numero misterioso");
+        alert("seu chute foi menor que o numero misterioso");
         
         
     } else if (chuteDojogador > numeroMisterioso) {
         
-        alert("seu numero é maior que o numero misterioso")
+        alert("seu chute foi maior que o numero misterioso")
         
     } else if (chuteDojogador == numeroMisterioso) {
-        alert("vitoria")
-    } console.log(fim)
+        alert( "parabens você acerto")
+         console.log(fim)
     }
 }
+}
 ++chuteDojogador
+
 
 
 
