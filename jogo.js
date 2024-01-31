@@ -19,10 +19,10 @@ while (chuteDojogador <= 101) {
         
     } else if (chuteDojogador == numeroMisterioso) {
         alert("vitoria")
+    } console.log(fim)
     }
 }
 ++chuteDojogador
-} 
 
 
 
