@@ -1,18 +1,18 @@
 
-// // function welcome() {
+// function welcome() {
 
-// // }
-// // let userName = prompt("Digite o seu nome")
-// // alert('bem vindo(a), ${userName}')
-
-
+// }
+// let userName = prompt("Digite o seu nome")
+// alert('bem vindo(a), ${userName}')
 
 
-// // function hello() {
-// //     let number1 = +prompt('digite o primeiro numer')
-// //     let number2 = +prompt('digite o primeiro numer')
-// //     alert (typeof number)
-// //     alert('a soma de ${number1} com {number2} é igual a ${number1 + number2}')
+
+
+// function hello() {
+//     let number1 = +prompt('digite o primeiro numer')
+//     let number2 = +prompt('digite o primeiro numer')
+//     alert (typeof number)
+//     alert('a soma de ${number1} com {number2} é igual a ${number1 + number2}')}
 
 // function welcome() {
 //     let number1 = +prompt("digite o primeiro numero")
@@ -69,14 +69,14 @@
 
 //     } else (media == 60); {
 //         alert(`aprovado valor da media ${media} `)
-// //     }
+//     }
 
 
 
 
 
 
-// // }
+// }
 
 // function verificarVelocidade(velocidade){
 //     let velocidade= (70)
@@ -106,40 +106,48 @@
 // }
 
 
-function helloWord10() {
-    for (let contador = 1; contador <= 10; contador = contador + 1) {
-        console.log("helloWord" + contador)
+// function helloWord10() {
+//     for (let contador = 1; contador <= 10; contador = contador + 1) {
+//         console.log("helloWord" + contador)
 
-    }
-}
-function tabuada() {
-    let number = +prompt("digite um numero para criar uma tabuada")
-    for (let contador = 1; contador <= 10; contador = contador + 1) {
+//     }
+// }
+// function tabuada() {
+//     let number = +prompt("digite um numero para criar uma tabuada")
+//     for (let contador = 1; contador <= 10; contador = contador + 1) {
        
 
-       console.log(`${number} x ${contador} = ${number*contador}`)
+//        console.log(`${number} x ${contador} = ${number*contador}`)
 
 
 
-    }
-}
-let numeros = [1,5,9,8]
-numeros.push(7) //adicionando um numero
-numeros.sort()  //colocando em ordem do menor para o maior 
-console.log(numeros)
-console.log (`a variavel tem ${numeros.length} posições`) // length indica quantos numeros tem dentro da variavel 
+//     }
+// }
+// let numeros = [1,5,9,8]
+// numeros.push(7) //adicionando um numero
+// numeros.sort()  //colocando em ordem do menor para o maior 
+// console.log(numeros)
+// console.log (`a variavel tem ${numeros.length} posições`) // length indica quantos numeros tem dentro da variavel 
 
 
- let nume = [1,5,9,8,6,4]
- nume.sort()
-// for(let posições =0;posições < nume.length; posições++ ){
+//  let nume = [1,5,9,8,6,4]
+//  nume.sort()
+// // for(let posições =0;posições < nume.length; posições++ ){
+// //     console.log(`a primeira posiçao ${posições} tem o numero ${nume[posições]}`)
+
+// //  
+
+// //forma simplificada para usar o for //
+// for (let posições in nume){
 //     console.log(`a primeira posiçao ${posições} tem o numero ${nume[posições]}`)
 
-//  
+// }
+// //indexOf quando quero saber em que posiçao esta o numero 
 
-//forma simplificada para usar o for //
-for (let posições in nume){
-    console.log(`a primeira posiçao ${posições} tem o numero ${nume[posições]}`)
-
+function showStudents(){
+    let students = ["joao","maria","jefferson"];
+    for(let index = 0; index < students.length; index++){
+        const element = students[index];
+        console.log(`O estudante ${students[index]} esta no index ${index}`)
+    }
 }
-//indexOf quando quero saber em que posiçao esta o numero 
