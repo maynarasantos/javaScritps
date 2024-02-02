@@ -115,7 +115,7 @@
 // function tabuada() {
 //     let number = +prompt("digite um numero para criar uma tabuada")
 //     for (let contador = 1; contador <= 10; contador = contador + 1) {
-       
+
 
 //        console.log(`${number} x ${contador} = ${number*contador}`)
 
@@ -143,11 +143,45 @@
 
 // }
 // //indexOf quando quero saber em que posiçao esta o numero 
-
-function showStudents(){
-    let students = ["joao","maria","jefferson"];
-    for(let index = 0; index < students.length; index++){
+// arry
+function showStudents() {
+    let students = ["joao", "maria", "jefferson"];
+    for (let index = 0; index < students.length; index++) {
         const element = students[index];
-        console.log(`O estudante ${students[index]} esta no index ${index}`)
+        console.log(`O estudante ${element} esta no index ${index}`);
     }
+}
+let maynara = {
+    name: "maynara s da silva",
+    age: 24,
+    ofAge: true,
+    hobbies: ["serie", "viajar", "comer"]
+
+};
+console.log(maynara.name)
+let videos = [
+    {
+        title: "Aprendendo Js",
+        duration: "4:30:00",
+        link: "https://youtube.com.br/testeJS"
+    },
+    {
+        title: " CSS como aprender",
+        duration: "2:20:00",
+        link: "https://youtube.com.br/testeCSS"
+    },
+    {
+        title: "Estudando HTML",
+        duration: "3:10:00",
+        link: "https://youtube.com.br/testeHTML"
+    },
+
+
+];
+// console.log(`videos`, videos);
+// console.log(`videos[1]`, videos[1]);
+// console.log(`videos[1], ,video.title`, videos[1], videos.title);
+for (let index = 0; index < videos.length; index++) {
+    const element = videos[index];
+    console.log(element.title);
 }
